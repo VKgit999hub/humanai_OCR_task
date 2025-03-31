@@ -29,3 +29,9 @@ The generated transcriptions are stored in the pred_transcriptions folder, which
 2.remaining_transcriptions/ – Contains transcriptions of the remaining PDF documents.
 
 Each transcription is provided page-wise for every PDF.
+
+for generating more transcriptions:
+
+1. Clone this repo.
+2. place the pdf in the test_pdf directory.
+3. Run python test.py
