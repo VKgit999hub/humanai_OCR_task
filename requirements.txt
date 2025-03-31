@@ -18,3 +18,5 @@ evaluate
 Levenshtein
 spacy
 datasets
+surya-ocr
+
