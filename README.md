@@ -6,20 +6,20 @@ Model Overview
 
 The model utilized for this task is qantev’s Spanish TrOCR, which has been pre-trained on printed Spanish documents. To enhance its performance on handwritten text, the model was fine-tuned using:
 
-Rodrigo Dataset (handwritten text)
+1.Rodrigo Dataset (handwritten text)
 
-Synthetic Data generated using VRD Handwritten Text Generator
+2.Synthetic Data generated using VRD Handwritten Text Generator
 
 PEFT LoRA Adapters applied to the encoder and decoder attention modules
 
 Evaluation Metrics
 The fine-tuned model was evaluated using the following metrics:
 
-Word Error Rate (WER)
+1.Word Error Rate (WER)
 
-Character Error Rate (CER)
+2.Character Error Rate (CER)
 
-BLEU Score
+3.BLEU Score
 
 Transcriptions
 The generated transcriptions are stored in the pred_transcriptions folder, which consists of two directories:
