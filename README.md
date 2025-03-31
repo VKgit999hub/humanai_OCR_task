@@ -1,4 +1,5 @@
 HumanAI Foundation OCR Task - GSOC 2025
+
 This repository contains the test results for the OCR task conducted by the HumanAI Foundation as part of GSoC 2025.
 
 Model Overview
