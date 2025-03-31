@@ -34,7 +34,7 @@ def pdf_to_images(pdf_path, output_folder='./test_images', page_indices=None, ma
 
         for i in tqdm(page_indices, desc="Converting PDF to Images", unit="page"):
             if i >= total_pages:  # Prevent index errors
-                print(f"⚠️ Skipping page {i} (out of range)")
+                print(f" Skipping page {i} (out of range)")
                 continue
 
             page = doc.load_page(i)  # Load page
@@ -70,7 +70,7 @@ def pdf_to_images(pdf_path, output_folder='./test_images', page_indices=None, ma
         return saved_images
 
     except Exception as e:
-        print(f"❌ Error processing PDF: {e}")
+        print(f"Error processing PDF: {e}")
         return []
 
 
