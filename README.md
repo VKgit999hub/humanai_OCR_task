@@ -3,6 +3,7 @@ HumanAI Foundation OCR Task - GSOC 2025
 This repository contains the test results for the OCR task conducted by the HumanAI Foundation as part of GSoC 2025.
 
 Model Overview
+
 The model utilized for this task is qantev’s Spanish TrOCR, which has been pre-trained on printed Spanish documents. To enhance its performance on handwritten text, the model was fine-tuned using:
 
 Rodrigo Dataset (handwritten text)
